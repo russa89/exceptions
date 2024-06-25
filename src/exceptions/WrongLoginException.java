@@ -5,3 +5,4 @@ public class WrongLoginException extends RuntimeException{
         super("Wrong login");
     }
 }
+

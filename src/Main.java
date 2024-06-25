@@ -14,7 +14,6 @@ public class Main {
 
     public static void newUser(String login, String password, String confirmPassword) {
 
-
         if (!login.matches("[a-zA-Z0-9_]+") || login.length() > 20) {
             throw new WrongLoginException();
         }
